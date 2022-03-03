@@ -21,6 +21,10 @@
     />
     <!-- Akhir Bootstrap Icon -->
 
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Akhir AOS -->
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir My CSS -->
@@ -59,6 +63,9 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -76,9 +83,7 @@
         class="rounded-circle img-thumbnail"
       />
       <h1 class="display-4">Andi Muhammad Fadhil Masyhun Arham</h1>
-      <p class="lead fs-4">
-        Mahasiswa | Teknik Informatika | Universitas Tanjungpura
-      </p>
+      <p class="lead fs-4"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0099ff"
@@ -93,19 +98,29 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mt-5 mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-in">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-5">
+          <div
+            class="col-md-5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
               id illo tenetur! Praesentium esse porro, iure atque expedita
               suscipit illo.
             </p>
           </div>
-          <div class="col-md-5">
+          <div
+            class="col-md-5"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex
               eum totam suscipit. Voluptatem ipsam ex illum, beatae voluptatibus
@@ -129,13 +144,24 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div
+            class="col"
+            data-aos-offset="300"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div
+              class="card"
+              data-aos-offset="300"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+            >
               <img
                 src="img/webgis.jpg"
                 class="card-img-top"
@@ -151,7 +177,13 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-duration="2000"
+              data-aos-delay="300"
+              data-aos-offset="300"
+            >
               <img
                 src="img/fe1a7b94-6b70-40ed-b008-a78afe054c33.jpg"
                 class="card-img-top"
@@ -176,11 +208,145 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div
+            class="col"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/pembukaan 1.JPG"
+                alt="pembukaan bina desa 1"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/pembukaan 2.JPG"
+                alt="pembukaan bina desa 2"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/sosialisasi 1.JPG"
+                alt="sosialisasi bina desa 1"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/sosialisasi 2.JPG"
+                alt="sosialisasi bina desa 2"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/bakti sosial 1.JPG"
+                alt="bakti sosial bina desa 1"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/bakti sosial 2.JPG"
+                alt="bakti sosial bina desa 2"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/kampung nelayan 1.JPG"
+                alt="kampung nelayan bina desa 1"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/kampung nelayan 2.JPG"
+                alt="kampung nelayan bina desa 2"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/penutupan 1.JPG"
+                alt="penutupan bina desa 1"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gallery/penutupan 2.JPG"
+                alt="penutupan bina desa 2"
+                width="350"
+                height="350"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div
+            class="col"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <h2>Contact Me</h2>
           </div>
         </div>
@@ -202,7 +368,12 @@
               ></button>
             </div>
             <form name="contact-form-portfolio">
-              <div class="mb-3">
+              <div
+                class="mb-3"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <label for="nama" class="form-label">Nama Lengkap</label>
                 <input
                   type="text"
@@ -212,7 +383,12 @@
                   name="nama"
                 />
               </div>
-              <div class="mb-3">
+              <div
+                class="mb-3"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <label for="email" class="form-label">Email</label>
                 <input
                   type="email"
@@ -222,7 +398,12 @@
                   name="email"
                 />
               </div>
-              <div class="mb-3">
+              <div
+                class="mb-3"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea
                   class="form-control"
@@ -231,7 +412,13 @@
                   rows="3"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-kirim">
+              <button
+                type="submit"
+                class="btn btn-primary btn-kirim"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Kirim
               </button>
               <button
@@ -278,6 +465,43 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: false,
+      });
+    </script>
+    <!-- Akhir Script AOS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration:4, delay: 1.5, text: 'Mahasiswa | Teknik Informatika | Universitas Tanjungpura'});
+      gsap.from(".jumbotron img", { duration: 2, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", {
+        duration: 1.5,
+        y: "-100%",
+        opacity: 0,
+        ease: "bounce ",
+      });
+      gsap.from(".display-4", {
+        duration: 1.5,
+        x: -50,
+        opacity: 0,
+        delay: 0.5,
+        ease: "back",
+      });
+    </script>
 
     <!-- JavaScript Form -->
     <script>
